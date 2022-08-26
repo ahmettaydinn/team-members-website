@@ -5,8 +5,7 @@
 
 
 
-# Clipboard landing page 
-
+# Team Members Website
 
 ## Table of contents
 
@@ -27,22 +26,29 @@
 
 ### The challenge
 
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+Your company is updating its website. They ask you to make your development team page.
 
 ### Screenshot
 
 <p align="center">
-<a href="https://bavi-boop.github.io/clipboard-landing-page-website/"><img src="screenshot.jpg" alt="screenshot" width="720" height="620"></a>
+<a href="https://bavi-boop.github.io/team-members-website/"><img src="team.png" alt="screenshot" width="720" height="620"></a>
 </p>
 
 
 ### Links
 
-- [live site URL here: ([Live Website)](https://bavi-boop.github.io/clipboard-landing-page-website/)
+- [live site URL here: ([Live Website)](https://bavi-boop.github.io/team-members-website/)
 
+### Skeleton
+```
+  team-members-page(folder)
+|
+|----readme.md        
+|----/images # Contains development team members photos         
+|----index.html  
+|----style.css   
+        
+```
 ## My process
 
 ### Built with
@@ -64,17 +70,21 @@ I learned how to use flexboxed, media queries, html elements and many more.
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+- Creat structure of the HTML5
+- Give name of your project (title)
+- Create the main structur of the HTML
 ```
 ```css
 .proud-of-this-css {
   @media only screen and (min-width: 790px) {
 }
 ```
-```js
-const proudOfThisFunc = () => {
-      <div class="meta-container last">
-}
+```css
+- You can apply all the technologies you learn. (Flexbox, Grid)
+- Set a background and define font color
+- Set container background color and margin
+- Define others color-size-padding etc...
+
 ```
 
 
@@ -88,6 +98,7 @@ I will build backend and extra pages for this website in the future.
 
 - [W3 Schoold](https://www.w3schools.com/) - This helped me for basics of website paradigm. I really liked this pattern and will use it going forward.
 - [MDN](https://developer.mozilla.org/en-US/) - This is an amazing document which helped me finally understand deep sides of web development. I'd recommend it to anyone still learning these concepts.
+- [W3 Schoold](https://www.youtube.com/watch?v=fSTQzlprGLI) - This helped me to complete the project. You can have a look at the tutorial
 
 
 ## Author
