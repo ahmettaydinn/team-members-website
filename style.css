@@ -44,7 +44,9 @@ body {
 
 .text p {
     font-size: 2.5rem;
-    width: 50rem;
+        width: 70%;
+
+
 }
 
 span {
@@ -72,21 +74,32 @@ span {
     }
 }
 
+@media screen and (min-width:2200px){
 
-@media screen and (max-width:2200){
+    .text p{ 
+        width: 48rem;
+    }
+}
+@media screen and (max-width:2200px){
     html {
         font-size: 14px ;
     }
+    .text { 
+        flex-direction: column;
+    }
 
 }
 
-@media screen and (max-width:1500){
+@media screen and (max-width:1500px){
     html {
         font-size: 13px ;
     }
+    .text { 
+        flex-direction: column;
+    }
 }
 
-@media screen and (max-width:1000){
+@media screen and (max-width:1000px){
     html {
         font-size: 12px ;
     }
